@@ -36,8 +36,8 @@ body{background:var(--bg);color:var(--ivory);font-family:var(--sans);overflow-x:
 /* ═══════════════════════════════════════════
    CURSOR
 ═══════════════════════════════════════════ */
-#cur{position:fixed;width:8px;height:8px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:transform .15s,width .2s,height .2s;mix-blend-mode:normal}
-#cur-r{position:fixed;width:30px;height:30px;border:1px solid rgba(201,168,76,.5);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:width .22s,height .22s,border-color .22s,opacity .2s}
+; #cur{position:fixed;width:8px;height:8px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:transform .15s,width .2s,height .2s;mix-blend-mode:normal}
+; #cur-r{position:fixed;width:30px;height:30px;border:1px solid rgba(201,168,76,.5);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:width .22s,height .22s,border-color .22s,opacity .2s}
 
 /* ═══════════════════════════════════════════
    LOADER
@@ -1011,7 +1011,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 6%;d
               <option>₹25,000 – ₹50,000</option>
               <option>₹50,000 – ₹1,00,000</option>
               <option>Above ₹1,00,000</option>
-              <option>Flexible / Let's discuss</option>
+              <option>Flexible / Lets discuss</option>
             </select>
           </div>
 
@@ -1047,7 +1047,7 @@ window.addEventListener('load',()=>{
     l.classList.add('hide');
     setTimeout(()=>l.remove(),950);
     setTimeout(startType,500);
-  },3400);
+  },1000);
   // auto popup after 10s
   setTimeout(openPop, 10000);
 });
